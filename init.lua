@@ -81,5 +81,10 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+
+    -- User conf
+    -- vim.cmd("call plug#begin('~/.vim/plugged')")
+    -- vim.cmd("Plug 'jalvesaq/Nvim-R'")
+    -- vim.cmd("call plug#end()")
   end,
 }
